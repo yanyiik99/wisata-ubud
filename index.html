@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UBUD</title>
+    <title>UBUD | kelompok 2</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./src/assets/css/bootstrap.min.css" />
 
@@ -13,6 +13,13 @@
 
     <!-- Flicky -->
     <link rel="stylesheet" href="plugin/flickity.min.css" />
+
+    <!-- Icon  -->
+    <link
+      rel="shortcut icon"
+      href="src/assets/images/header/u.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- Start Navbar -->
@@ -41,13 +48,19 @@
               <a class="nav-link" href="#">Discovery</a>
             </li>
             <li class="nav-item ps-5">
-              <a class="nav-link" href="about.html">Booking</a>
+              <a
+                class="nav-link"
+                href="https://www.tripadvisor.com/Tourism-g294226-Bali-Vacations.html"
+                >Booking</a
+              >
             </li>
             <li class="nav-item ps-5">
-              <a class="nav-link" href="#">Wisata Ubud</a>
+              <a class="nav-link" href="#carousel">Wisata Ubud</a>
             </li>
             <li class="nav-item ps-5">
-              <a class="nav-link" href="gallery.html">kemBali</a>
+              <a class="nav-link" href="https://en.wikipedia.org/wiki/Bali"
+                >kemBali</a
+              >
             </li>
           </ul>
         </div>
@@ -85,10 +98,12 @@
             type="button"
             class="btn btn-outline-warning border border-3 border-info btn-lg rounded-5 px-3"
           >
-            <span class="pe-4"
-              ><img src="src/assets/images/header/location.png" alt=""
-            /></span>
-            <span class="fs-6">Ubud Location</span>
+            <a class="d-inline text-decoration-none text-white" href="#map">
+              <span class="pe-4"
+                ><img src="src/assets/images/header/location.png" alt=""
+              /></span>
+              <span class="fs-6">Ubud Location</span>
+            </a>
           </button>
         </div>
       </div>
@@ -229,49 +244,92 @@
     </section>
     <!-- End Tentang Ubud -->
 
-    <!-- Start Eksplorasi Ubud -->
-    <section id="eksplorasi">
-      <div class="container"></div>
-    </section>
-    <!-- End Eksplorasi Ubud -->
-
     <!-- Start Carausel Flicky  -->
     <section id="carousel" class="carousel-class my-5 py-5">
       <div class="carousel" data-flickity='{ "groupCells": true }'>
-        <div class="carousel-cell d-flex justify-content-end align-items-start">
-          <button class="btn btn-carousel m-2 rounded-pill">
-            <span class="span-carousel d-inline-block">50k</span>
-          </button>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">50k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Ubud Monkey Forest</h3>
+          </div>
         </div>
-        <div class="carousel-cell d-flex justify-content-end align-items-start">
-          <button class="btn btn-carousel m-2 rounded-pill">
-            <span class="span-carousel d-inline-block">20k</span>
-          </button>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">25k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Bukit Campuhan Ubud</h3>
+          </div>
         </div>
-        <div class="carousel-cell d-flex justify-content-end align-items-start">
-          <button class="btn btn-carousel m-2 rounded-pill">
-            <span class="span-carousel d-inline-block">70k</span>
-          </button>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">100k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Pura Saraswati</h3>
+          </div>
         </div>
-        <div class="carousel-cell d-flex justify-content-end align-items-start">
-          <button class="btn btn-carousel m-2 rounded-pill">
-            <span class="span-carousel d-inline-block">70k</span>
-          </button>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">70k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Aloha Ubud Swing</h3>
+          </div>
         </div>
-        <div class="carousel-cell d-flex justify-content-end align-items-start">
-          <button class="btn btn-carousel m-2 rounded-pill">
-            <span class="span-carousel d-inline-block">70k</span>
-          </button>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">1500k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Aksari Resort Ubud</h3>
+          </div>
         </div>
-        <div class="carousel-cell d-flex justify-content-end align-items-start">
-          <button class="btn btn-carousel m-2 rounded-pill">
-            <span class="span-carousel d-inline-block">70k</span>
-          </button>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">Free</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Traditional Market Ubud</h3>
+          </div>
         </div>
-        <div class="carousel-cell d-flex justify-content-end align-items-start">
-          <button class="btn btn-carousel m-2 rounded-pill">
-            <span class="span-carousel d-inline-block">70k</span>
-          </button>
+        <div class="carousel-cell">
+          <div class="in-carousel d-flex justify-content-end align-items-start">
+            <button class="btn btn-carousel m-2 rounded-pill">
+              <span class="span-carousel d-inline-block">50k</span>
+            </button>
+          </div>
+          <div
+            class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
+          >
+            <h3 class="text-white opacity-100">Ubud Monkey Forest</h3>
+          </div>
         </div>
       </div>
     </section>
