@@ -14,6 +14,9 @@
     <!-- Flicky -->
     <link rel="stylesheet" href="plugin/flickity.min.css" />
 
+    <!-- AOS Animated -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Icon  -->
     <link
       rel="shortcut icon"
@@ -166,6 +169,8 @@
             <div class="card-top d-flex">
               <div
                 class="card card-1 w-100 d-flex flex-column justify-content-center align-items-center m-2"
+                data-aos="zoom-in"
+                data-aos-delay="400"
               >
                 <div class="card-pp">
                   <img
@@ -182,6 +187,8 @@
               </div>
               <div
                 class="card card-2 w-100 p-3 d-flex flex-column justify-content-center align-items-center m-2"
+                data-aos="zoom-in"
+                data-aos-delay="600"
               >
                 <div class="card-pp">
                   <img
@@ -200,6 +207,8 @@
             <div class="card-bottom d-flex">
               <div
                 class="card card-3 w-100 d-flex flex-column justify-content-center align-items-center m-2"
+                data-aos="zoom-in"
+                data-aos-delay="800"
               >
                 <div class="card-pp">
                   <img
@@ -216,6 +225,8 @@
               </div>
               <div
                 class="card card-4 w-100 d-flex flex-column justify-content-center align-items-center m-2 p-3"
+                data-aos="zoom-in"
+                data-aos-delay="1000"
               >
                 <div class="card-pp">
                   <img
@@ -322,13 +333,13 @@
         <div class="carousel-cell">
           <div class="in-carousel d-flex justify-content-end align-items-start">
             <button class="btn btn-carousel m-2 rounded-pill">
-              <span class="span-carousel d-inline-block">50k</span>
+              <span class="span-carousel d-inline-block">20k</span>
             </button>
           </div>
           <div
             class="btn btn-warning opacity-50 text-carousel d-flex justify-content-center mt-5 pt-3 text-warning fw-bolder"
           >
-            <h3 class="text-white opacity-100">Ubud Monkey Forest</h3>
+            <h3 class="text-white opacity-100">Museum Ubud</h3>
           </div>
         </div>
       </div>
@@ -368,6 +379,14 @@
 
     <!-- Own JS -->
     <script src="src/assets/custom/custom.js"></script>
+
+    <!-- AOS Animated JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <!-- Maps -->
   </body>

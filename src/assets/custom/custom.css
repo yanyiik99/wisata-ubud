@@ -87,43 +87,43 @@ body {
 } */
 
 .carousel-cell.is-selected:nth-child(1) {
-  background-image: url('/src/assets/images/carausel/ubud-monkey.png') !important;
+  background-image: url('../images/carausel/ubud-monkey.png') !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
 
 .carousel-cell:nth-child(2) {
-  background-image: url('/src/assets/images/carausel/campuhan.png');
+  background-image: url('../images/carausel/campuhan.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .carousel-cell:nth-child(3) {
-  background-image: url('/src/assets/images/carausel/saraswati.png');
+  background-image: url('../images/carausel/saraswati.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .carousel-cell:nth-child(4) {
-  background-image: url('/src/assets/images/carausel/swinging.png');
+  background-image: url('../images/carausel/swinging.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .carousel-cell:nth-child(5) {
-  background-image: url('/src/assets/images/carausel/aksari-resort.png');
+  background-image: url('../images/carausel/aksari-resort.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .carousel-cell:nth-child(6) {
-  background-image: url('/src/assets/images/carausel/traditional-market.png');
+  background-image: url('../images/carausel/traditional-market.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .carousel-cell:nth-child(7) {
-  background-image: url('/src/assets/images/carausel/museum.png');
+  background-image: url('../images/carausel/museum.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
